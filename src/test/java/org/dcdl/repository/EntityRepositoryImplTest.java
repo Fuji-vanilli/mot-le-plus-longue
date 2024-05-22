@@ -129,11 +129,4 @@ public class EntityRepositoryImplTest {
         verify(preparedStatement, times(1)).close();
         verify(connection, times(1)).setAutoCommit(true);
     }
-
-
-
-
-
-
-
 }
